@@ -1,6 +1,13 @@
 {
   "name": "cv",
-  "version": "1.0.0",
-  "description": "My Curriculum Vitae",
-  "scripts": {},
+  "scripts": {
+    "build": "tailwindcss -o src/index.css",
+    "serve": "live-server --no-browser src"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "live-server": "^1.2.1",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.19"
+  }
 }
