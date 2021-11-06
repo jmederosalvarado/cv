@@ -4,11 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-gray-500">
     <div
       style="width: 8.5in; height: 11in"
-      class="mx-auto p-8 text-gray-700 bg-gray-50 text-sm"
+      class="mx-auto py-12 px-8 text-gray-700 bg-gray-50 text-sm"
     >
       <div class="text-center flex flex-col justify-start items-center">
         <span class="text-3xl">Jorge Mederos</span>
@@ -50,14 +56,11 @@
           </a>
         </div>
       </div>
-      <div id="about" class="mt-3 mx-auto text-center max-w-xl">
-        <span
-          id="about-title"
-          class="font-bold tracking-wide uppercase text-xs"
-        >
+      <div id="about" class="mt-6 mx-auto max-w-xl text-center">
+        <div id="about-title" class="font-bold tracking-wide uppercase text-xs">
           About
-        </span>
-        <div id="about-content" class="">
+        </div>
+        <div id="about-content" class="mt-2">
           <p>
             I am currently a <span>4<sup>th</sup></span> year Computer Science
             student at the University of Havana. I consider myself a hardworking
@@ -72,7 +75,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-row flex-wrap mt-6">
+      <div class="flex flex-row flex-wrap mt-2">
         <div class="flex flex-col w-1/2">
           <div id="projects-achievements" class="p-4">
             <span
@@ -86,7 +89,7 @@
                 <span class="font-semibold">Winner</span> of the first
                 <a
                   href="https://docs.forta.network/en/latest/contest1"
-                  class="text-indigo-500"
+                  class="text-blue-500"
                   >Forta Agent Development Contest</a
                 >
               </li>
@@ -94,7 +97,7 @@
               <li>
                 <a
                   href="https://ethernaut.openzeppelin.com"
-                  class="text-indigo-500"
+                  class="text-blue-500"
                   >Ethernaut</a
                 >
               </li>
@@ -102,34 +105,36 @@
               <li>
                 <a
                   href="https://www.damnvulnerabledefi.xyz"
-                  class="text-indigo-500"
+                  class="text-blue-500"
                   >Damn Vulnerable DeFi</a
                 >
               </li>
 
               <li>
                 <span
-                  ><a href="https://buildspace.so" class="text-indigo-500"
+                  ><a href="https://buildspace.so" class="text-blue-500"
                     >Buildspace</a
                   >
-                  courses</span
+                  course:</span
                 >
-                <ul class="ml-2 list-inside list-dash">
-                  <li>
-                    <a
-                      href="https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b"
-                      class="text-indigo-500"
-                      >Build a Web3 App: Solidity + Smart Contracts</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://app.buildspace.so/courses/CO961ddb5f-f428-4608-9949-a9a2f461eb3f"
-                      class="text-indigo-500"
-                      >Build a Web3 App: Mint Your Own NFT Collection</a
-                    >
-                  </li>
-                </ul>
+                <a
+                  href="https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b"
+                  class="text-blue-500"
+                  >Build a Web3 App: Solidity + Smart Contracts</a
+                >
+              </li>
+              <li>
+                <span
+                  ><a href="https://buildspace.so" class="text-blue-500"
+                    >Buildspace</a
+                  >
+                  course:</span
+                >
+                <a
+                  href="https://app.buildspace.so/courses/CO961ddb5f-f428-4608-9949-a9a2f461eb3f"
+                  class="text-blue-500"
+                  >Build a Web3 App: Mint Your Own NFT Collection</a
+                >
               </li>
 
               <li>
@@ -140,9 +145,9 @@
               <li>
                 Implemented a <span class="italic">Chord</span> based
                 distributed scrapper using
-                <a href="https://zeromq.org" class="text-indigo-500">ZeroMQ</a>
+                <a href="https://zeromq.org" class="text-blue-500">ZeroMQ</a>
                 and
-                <a href="https://github.com/irmen/Pyro5" class="text-indigo-500"
+                <a href="https://github.com/irmen/Pyro5" class="text-blue-500"
                   >Pyro5</a
                 >
               </li>
@@ -157,7 +162,7 @@
                 Published
                 <a
                   href="http://ceur-ws.org/Vol-2664/eHealth-KD_paper5.pdf"
-                  class="text-indigo-500"
+                  class="text-blue-500"
                   >Learning Models for Knowledge Discovery in Spanish eHealth
                   Documents</a
                 >
@@ -168,7 +173,7 @@
                 Published
                 <a
                   href="http://ceur-ws.org/Vol-2421/eHealth-KD_paper_9.pdf"
-                  class="text-indigo-500"
+                  class="text-blue-500"
                   >Deep Learning Models for Knowledge Discovery in Spanish
                   eHealth Documents</a
                 >
@@ -180,45 +185,10 @@
               </li>
             </ul>
           </div>
-
-          <div id="work" class="p-4 mt-6">
-            <span
-              id="work-title"
-              class="ml-2 font-bold tracking-wide uppercase text-xs"
-            >
-              Work Experience
-            </span>
-            <div id="work-content" class="mt-2">
-              <div class="">
-                <span class="text-gray-500 text-xs">2021</span> Full Stack
-                Developer at Guajitech
-                <div class="">
-                  <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
-                    >Angular</span
-                  >
-                  <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
-                    >Nest.js</span
-                  >
-                </div>
-              </div>
-              <div class="">
-                <span class="text-gray-500 text-xs">2019</span> Frontend
-                Developer at Iberant Solutions
-                <div class="">
-                  <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
-                    >React</span
-                  >
-                  <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
-                    >AntDesign</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div class="flex flex-col w-1/2">
-          <div id="skills" class="p-4 mt-6">
+          <div id="skills" class="p-4">
             <span
               id="skills-title"
               class="ml-2 font-bold tracking-wide uppercase text-xs"
@@ -309,32 +279,6 @@
             </ul>
           </div>
 
-          <div id="education" class="p-4 mt-6">
-            <span
-              id="education-title"
-              class="ml-2 font-bold tracking-wide uppercase text-xs"
-            >
-              Education
-            </span>
-            <div id="work-content" class="mt-2">
-              <div class="leading-none mt-2">
-                <span class="text-gray-500 text-xs -ml-4">2017 - Present</span>
-                <br />
-                <span>Computer Science at University of Havana</span>
-              </div>
-              <div class="leading-none mt-2">
-                <span class="text-gray-500 text-xs -ml-4">2018 - Present</span>
-                <br />
-                <span>Student Teaching Assistant - Programming Course</span>
-              </div>
-              <div class="leading-none mt-2">
-                <span class="text-gray-500 text-xs -ml-4">2018 - Present</span>
-                <br />
-                <span>Student Research Assitant - Artificial Intelligence</span>
-              </div>
-            </div>
-          </div>
-
           <div id="languages" class="p-4 mt-6">
             <span
               id="languages-title"
@@ -345,15 +289,76 @@
             <div id="languages-content" class="mt-2">
               <div class="">
                 <span class="font-semibold">Spanish</span>
-                - <span class="text-gray-600">(Native)</span>
+                - <span class="text-gray-600 text-xs">(Native)</span>
               </div>
               <div class="">
                 <span class="font-semibold">English</span>
                 -
-                <span class="text-gray-600"
+                <span class="text-gray-600 text-xs"
                   >(Professional Working Proficiency)</span
                 >
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row mt-2">
+        <div id="work" class="w-1/2 p-4">
+          <span
+            id="work-title"
+            class="ml-2 font-bold tracking-wide uppercase text-xs"
+          >
+            Work Experience
+          </span>
+          <div id="work-content" class="mt-2">
+            <div class="">
+              <span class="text-gray-500 text-xs">2021</span> Full Stack
+              Developer at Guajitech
+              <div class="mt-1">
+                <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
+                  >Angular</span
+                >
+                <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
+                  >Nest.js</span
+                >
+              </div>
+            </div>
+            <div class="mt-2">
+              <span class="text-gray-500 text-xs">2019</span> Frontend Developer
+              at Iberant Solutions
+              <div class="mt-1">
+                <span class="bg-gray-300 rounded px-1 mx-1 text-xs">React</span>
+                <span class="bg-gray-300 rounded px-1 mx-1 text-xs"
+                  >AntDesign</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="education" class="w-1/2 p-4">
+          <span
+            id="education-title"
+            class="ml-2 font-bold tracking-wide uppercase text-xs"
+          >
+            Education
+          </span>
+          <div id="work-content" class="mt-2">
+            <div class="leading-none mt-2">
+              <span class="text-gray-500 text-xs -ml-4">2017 - Present</span>
+              <br />
+              <span>Computer Science at University of Havana</span>
+            </div>
+            <div class="leading-none mt-2">
+              <span class="text-gray-500 text-xs -ml-4">2018 - Present</span>
+              <br />
+              <span>Student Teaching Assistant - Programming Course</span>
+            </div>
+            <div class="leading-none mt-2">
+              <span class="text-gray-500 text-xs -ml-4">2018 - Present</span>
+              <br />
+              <span>Student Research Assitant - Artificial Intelligence</span>
             </div>
           </div>
         </div>
